@@ -1,0 +1,123 @@
+@media (max-width:1140px){
+    .card{
+        width: calc(50% - 15px);
+    }
+    .footer{
+        padding: 25px 0px 60px 0px;
+    }
+    .footer-row{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-col{
+        margin-bottom: 50px;
+    }
+    .footer-col:first-child{
+        margin-bottom: 0;
+    }
+    .footer-copyright-name{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .footer-copyright p,.footer-icons p{
+        font-size: 12px;
+    }
+    /* ----------- nav */
+    nav{
+        padding: 0 40px 0 50px;
+    }
+}
+
+@media (max-width:768px){
+    .header-title{
+        font-size: 30px;
+    }
+    .header-subtitle{
+        font-size: 10px;
+    }
+    .section{
+        padding: 40px 0px 70px 0px;
+    }
+    .section-header{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .section-wrapper{
+        justify-content: center;
+    }
+    .card-link{
+        padding: 15px;
+    }
+    .card{
+        width: 100%;
+    }
+    .card-img{
+        margin-bottom: 10px;
+    }
+    .card-title{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .card p{
+        font-size: 12px;
+    }
+    /* ---------- daguul---- */
+nav .menu-btn i{
+    display: block;
+    }
+    #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+    }
+    nav ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #1E4776;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+    }
+    #click:checked ~ ul{
+    left: 0;
+    }
+    nav ul li{
+    width: 100%;
+    margin: 40px 0;
+    }
+    nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    #click:checked ~ ul li a{
+    margin-left: 0px;
+    }
+    nav ul li a:hover{
+    background: none;
+    color: red;
+    }
+    .project{
+        padding: 40px 0px 60px 0px;
+    }
+    .project-header{
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    .project-img{
+        margin-bottom: 30px;
+    }
+    .project-description{
+        margin-bottom: 40px;
+    }
+    .map__title{
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
